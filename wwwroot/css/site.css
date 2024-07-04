@@ -1,0 +1,137 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #f8f9fa;
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.navbar {
+  background-color: #343a40;
+}
+
+.nav-link {
+  color: #ffffff !important;
+}
+
+.jumbotron {
+  background-color: #f8f9fa;
+  padding: 2rem 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #007bff;
+}
+
+.jumbotron p.lead {
+  font-size: 1.25rem;
+  color: #6c757d;
+}
+
+.jumbotron hr {
+  border-top: 2px solid #007bff;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.jumbotron h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #343a40;
+}
+
+.jumbotron p {
+  font-size: 1.1rem;
+  color: #495057;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #007bff;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table th {
+  background-color: #343a40;
+  color: white;
+}
+
+.btn {
+  margin: 0 5px;
+}
+
+.btn-warning {
+  color: #170606;
+}
+
+.btn-info {
+  color: #170606;
+}
+
+.btn-danger {
+  color: #170606;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.alert {
+  margin-top: 1rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-white {
+  color: #fff ;
+}
